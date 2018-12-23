@@ -1,0 +1,835 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/Main.java" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="94a49475-ad90-48de-8f0b-b80d3192c0f2" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Demo$Main.ic" NAME="Main Coverage Results" MODIFIED="1545506370577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="271" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/EvalVisitor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="11" column="65" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#500#516#0" expanded="true" />
+                <element signature="e#504#519#0" expanded="true" />
+                <element signature="e#5800#5801#0" expanded="true" />
+                <element signature="e#5841#5842#0" expanded="true" />
+                <element signature="e#6877#6878#0" expanded="true" />
+                <element signature="e#6927#6928#0" expanded="true" />
+                <element signature="e#7009#7010#0" expanded="true" />
+                <element signature="e#7063#7064#0" expanded="true" />
+                <element signature="e#7572#7573#0" expanded="true" />
+                <element signature="e#7618#7619#0" expanded="true" />
+                <element signature="e#8775#8776#0" expanded="true" />
+                <element signature="e#8827#8828#0" expanded="true" />
+                <element signature="e#9173#9174#0" expanded="true" />
+                <element signature="e#9216#9217#0" expanded="true" />
+                <element signature="e#9811#9812#0" expanded="true" />
+                <element signature="e#9853#9854#0" expanded="true" />
+                <element signature="e#9941#9942#0" expanded="true" />
+                <element signature="e#9988#9989#0" expanded="true" />
+                <element signature="e#10243#10244#0" expanded="true" />
+                <element signature="e#10290#10291#0" expanded="true" />
+                <element signature="e#11324#11325#0" expanded="true" />
+                <element signature="e#11365#11366#0" expanded="true" />
+                <element signature="e#12941#12942#0" expanded="true" />
+                <element signature="e#12984#12985#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Node.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="93">
+              <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="279">
+              <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LabeledExpr.g4">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="279">
+              <caret line="9" column="7" selection-start-line="9" selection-end-line="9" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="651">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>newblock</find>
+      <find>#</find>
+      <find>parameter</find>
+      <find>printf.*</find>
+      <find>void</find>
+      <find>stringArrayInit</find>
+      <find>tochar</find>
+      <find>STRING</find>
+      <find>to</find>
+      <find>visitString</find>
+      <find>console</find>
+      <find>plus</find>
+      <find>consoleI</find>
+      <find>arrayi</find>
+      <find>consoleinDe</find>
+      <find>CHA</find>
+      <find>switch</find>
+      <find>try</find>
+      <find>huanhang</find>
+      <find>TIPS</find>
+      <find>NO_ANSWER</find>
+      <find>answer_index</find>
+      <find>forloop</find>
+      <find>case</find>
+      <find>singlevaria</find>
+      <find>block</find>
+      <find>array</find>
+      <find>arrayaccess</find>
+      <find>normalFunc</find>
+      <find>assign</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>String</replace>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Hello.g4" />
+        <option value="$PROJECT_DIR$/LabeledExpr.g4" />
+        <option value="$PROJECT_DIR$/src/data.txt" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/LabeledExprBaseVisitor.java" />
+        <option value="$PROJECT_DIR$/data.txt" />
+        <option value="$PROJECT_DIR$/src/LabeledExpr.g4" />
+        <option value="$PROJECT_DIR$/src/Node.java" />
+        <option value="$PROJECT_DIR$/src/EvalVisitor.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="315" />
+    <option name="y" value="213" />
+    <option name="width" value="978" />
+    <option name="height" value="1039" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="$PROJECT_DIR$/LabeledExpr.g4::/auto-gen" value="false" />
+    <property name="$PROJECT_DIR$/LabeledExpr.g4::/encoding" value="–no-listener –vistor –encoding UTF-8" />
+    <property name="$PROJECT_DIR$/LabeledExpr.g4::/gen-listener" value="true" />
+    <property name="$PROJECT_DIR$/LabeledExpr.g4::/gen-visitor" value="false" />
+    <property name="$PROJECT_DIR$/LabeledExpr.g4::/output-dir" value="C:\Users\Whale\IdeaProjects\Demo\src" />
+    <property name="$PROJECT_DIR$/src/LabeledExpr.g4::/auto-gen" value="false" />
+    <property name="$PROJECT_DIR$/src/LabeledExpr.g4::/gen-listener" value="true" />
+    <property name="$PROJECT_DIR$/src/LabeledExpr.g4::/gen-visitor" value="false" />
+    <property name="$PROJECT_DIR$/src/LabeledExpr.g4::/output-dir" value="C:\Users\Whale\IdeaProjects\Demo\out" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545574026662" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Whale\IdeaProjects\Demo" />
+      <recent name="C:\Users\Whale\IdeaProjects\Demo\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Whale\IdeaProjects\Demo\src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Demo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="94a49475-ad90-48de-8f0b-b80d3192c0f2" name="Default Changelist" comment="" />
+      <created>1545141761040</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1545141761040</updated>
+      <workItem from="1545141763869" duration="1374000" />
+      <workItem from="1545143144107" duration="6703000" />
+      <workItem from="1545184149243" duration="3019000" />
+      <workItem from="1545372604713" duration="292000" />
+      <workItem from="1545372916306" duration="159000" />
+      <workItem from="1545373258695" duration="93000" />
+      <workItem from="1545373373552" duration="509000" />
+      <workItem from="1545374297052" duration="118000" />
+      <workItem from="1545375237123" duration="287000" />
+      <workItem from="1545375597761" duration="353000" />
+      <workItem from="1545376136934" duration="390000" />
+      <workItem from="1545376592166" duration="1508000" />
+      <workItem from="1545378783685" duration="625000" />
+      <workItem from="1545384343674" duration="1078000" />
+      <workItem from="1545389790547" duration="2534000" />
+      <workItem from="1545392471628" duration="8662000" />
+      <workItem from="1545450062261" duration="15997000" />
+      <workItem from="1545485025789" duration="7022000" />
+      <workItem from="1545492660962" duration="1894000" />
+      <workItem from="1545494571029" duration="10835000" />
+      <workItem from="1545542470130" duration="11435000" />
+      <workItem from="1545558191934" duration="9594000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="84481000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12953092" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3217768" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.22101842" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
+      <window_info anchor="bottom" id="Log Viewer" order="7" weight="0.32956153" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49932975" weight="0.35211268" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067025" side_tool="true" weight="0.32956153" />
+      <window_info anchor="bottom" id="Tool Output" order="11" weight="0.32936078" />
+      <window_info anchor="bottom" id="Anonymous Apex" order="12" sideWeight="0.78016084" weight="0.32936078" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="ANTLR Preview" order="15" sideWeight="0.49932975" weight="0.4452871" />
+      <window_info anchor="bottom" id="SOQL Query" order="16" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" order="17" weight="0.32936078" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32995737" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21428572" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3217768" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.27410617" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
+      <window_info anchor="bottom" id="Log Viewer" order="7" weight="0.32956153" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49932975" weight="0.24160346" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Tool Output" order="10" weight="0.32956153" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067025" side_tool="true" weight="0.32956153" />
+      <window_info anchor="bottom" id="Anonymous Apex" order="12" sideWeight="0.78016084" weight="0.32956153" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="ANTLR Preview" order="15" sideWeight="0.49932975" weight="0.36078006" />
+      <window_info anchor="bottom" id="SOQL Query" order="16" weight="0.32956153" />
+      <window_info anchor="bottom" id="Messages" order="17" weight="0.32936078" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="ctx.parent instanceof LabeledExprParser.AssignContext" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>ctx.parent instanceof LabeledExprParser.AssignContext</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>ctx.parent instanceof LabeledExprParser.ArrayInitValuesContext</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>ctx.parent</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>ctx.getParent()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>ctx.getParent()instanceof LabeledExprParser.ExprContext</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>ctx.getParent()instanceof LabeledExprParser.ValDeclContext</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>ctx.arrayInitValues().stringArrayInit()ctx.getParent()instanceof LabeledExprParser.ValDeclContext</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>ctx.arrayInitValues().stringArrayInit()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>ctx.valDecl().getText()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/LabeledExpr.tokens">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HelloParser.java" />
+    <entry file="file://$PROJECT_DIR$/src/HelloBaseListener.java" />
+    <entry file="file://$PROJECT_DIR$/src/HelloLexer.interp" />
+    <entry file="file://$PROJECT_DIR$/Hello.g4" />
+    <entry file="file://$PROJECT_DIR$/out/LabeledExpr.tokens" />
+    <entry file="jar://C:/Program Files/Java/antlr-4.7.1-complete.jar!/org/antlr/v4/runtime/Parser.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="71" column="17" selection-start-line="71" selection-start-column="17" selection-end-line="71" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/antlr-4.7.1-complete.jar!/org/antlr/v4/runtime/RuleContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/antlr-4.7.1-complete.jar!/org/antlr/v4/runtime/Recognizer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="180" column="22" selection-start-line="180" selection-start-column="22" selection-end-line="180" selection-end-column="22" />
+          <folding>
+            <element signature="e#5588#5589#0" expanded="true" />
+            <element signature="e#5632#5633#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1957" column="56" selection-start-line="1957" selection-start-column="48" selection-end-line="1957" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/antlr-4.7.1-complete.jar!/org/antlr/v4/runtime/tree/ParseTree.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LabeledExprParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="507" column="38" selection-start-line="507" selection-start-column="38" selection-end-line="507" selection-end-column="38" />
+          <folding>
+            <element signature="e#10433#10434#0" expanded="true" />
+            <element signature="e#10495#10496#0" expanded="true" />
+            <element signature="e#12664#12665#0" expanded="true" />
+            <element signature="e#12726#12727#0" expanded="true" />
+            <element signature="e#12772#12773#0" expanded="true" />
+            <element signature="e#12831#12832#0" expanded="true" />
+            <element signature="e#12879#12880#0" expanded="true" />
+            <element signature="e#12939#12940#0" expanded="true" />
+            <element signature="e#13018#13019#0" expanded="true" />
+            <element signature="e#13055#13056#0" expanded="true" />
+            <element signature="e#14467#14468#0" expanded="true" />
+            <element signature="e#14520#14521#0" expanded="true" />
+            <element signature="e#14599#14600#0" expanded="true" />
+            <element signature="e#14636#14637#0" expanded="true" />
+            <element signature="e#15923#15924#0" expanded="true" />
+            <element signature="e#15973#15974#0" expanded="true" />
+            <element signature="e#16049#16050#0" expanded="true" />
+            <element signature="e#16086#16087#0" expanded="true" />
+            <element signature="e#17350#17351#0" expanded="true" />
+            <element signature="e#17401#17402#0" expanded="true" />
+            <element signature="e#17478#17479#0" expanded="true" />
+            <element signature="e#17515#17516#0" expanded="true" />
+            <element signature="e#18714#18715#0" expanded="true" />
+            <element signature="e#18769#18770#0" expanded="true" />
+            <element signature="e#18814#18815#0" expanded="true" />
+            <element signature="e#18870#18871#0" expanded="true" />
+            <element signature="e#18944#18945#0" expanded="true" />
+            <element signature="e#18981#18982#0" expanded="true" />
+            <element signature="e#20142#20143#0" expanded="true" />
+            <element signature="e#20193#20194#0" expanded="true" />
+            <element signature="e#20339#20340#0" expanded="true" />
+            <element signature="e#20376#20377#0" expanded="true" />
+            <element signature="e#21285#21286#0" expanded="true" />
+            <element signature="e#21335#21336#0" expanded="true" />
+            <element signature="e#21370#21371#0" expanded="true" />
+            <element signature="e#21421#21422#0" expanded="true" />
+            <element signature="e#21490#21491#0" expanded="true" />
+            <element signature="e#21527#21528#0" expanded="true" />
+            <element signature="e#22949#22950#0" expanded="true" />
+            <element signature="e#22986#22987#0" expanded="true" />
+            <element signature="e#23118#23119#0" expanded="true" />
+            <element signature="e#23146#23147#0" expanded="true" />
+            <element signature="e#23240#23241#0" expanded="true" />
+            <element signature="e#23292#23293#0" expanded="true" />
+            <element signature="e#23697#23698#0" expanded="true" />
+            <element signature="e#23750#23751#0" expanded="true" />
+            <element signature="e#24158#24159#0" expanded="true" />
+            <element signature="e#24212#24213#0" expanded="true" />
+            <element signature="e#24597#24598#0" expanded="true" />
+            <element signature="e#24648#24649#0" expanded="true" />
+            <element signature="e#25050#25051#0" expanded="true" />
+            <element signature="e#25106#25107#0" expanded="true" />
+            <element signature="e#25508#25509#0" expanded="true" />
+            <element signature="e#25562#25563#0" expanded="true" />
+            <element signature="e#25965#25966#0" expanded="true" />
+            <element signature="e#26016#26017#0" expanded="true" />
+            <element signature="e#26052#26053#0" expanded="true" />
+            <element signature="e#26102#26103#0" expanded="true" />
+            <element signature="e#26137#26138#0" expanded="true" />
+            <element signature="e#26188#26189#0" expanded="true" />
+            <element signature="e#26228#26229#0" expanded="true" />
+            <element signature="e#26280#26281#0" expanded="true" />
+            <element signature="e#26319#26320#0" expanded="true" />
+            <element signature="e#26372#26373#0" expanded="true" />
+            <element signature="e#26753#26754#0" expanded="true" />
+            <element signature="e#26804#26805#0" expanded="true" />
+            <element signature="e#30137#30138#0" expanded="true" />
+            <element signature="e#30188#30189#0" expanded="true" />
+            <element signature="e#30218#30219#0" expanded="true" />
+            <element signature="e#30269#30270#0" expanded="true" />
+            <element signature="e#30339#30340#0" expanded="true" />
+            <element signature="e#30376#30377#0" expanded="true" />
+            <element signature="e#31401#31402#0" expanded="true" />
+            <element signature="e#31451#31452#0" expanded="true" />
+            <element signature="e#31486#31487#0" expanded="true" />
+            <element signature="e#31537#31538#0" expanded="true" />
+            <element signature="e#31607#31608#0" expanded="true" />
+            <element signature="e#31644#31645#0" expanded="true" />
+            <element signature="e#32567#32568#0" expanded="true" />
+            <element signature="e#32617#32618#0" expanded="true" />
+            <element signature="e#32652#32653#0" expanded="true" />
+            <element signature="e#32703#32704#0" expanded="true" />
+            <element signature="e#32733#32734#0" expanded="true" />
+            <element signature="e#32784#32785#0" expanded="true" />
+            <element signature="e#32820#32821#0" expanded="true" />
+            <element signature="e#32874#32875#0" expanded="true" />
+            <element signature="e#32945#32946#0" expanded="true" />
+            <element signature="e#32982#32983#0" expanded="true" />
+            <element signature="e#34461#34462#0" expanded="true" />
+            <element signature="e#34512#34513#0" expanded="true" />
+            <element signature="e#34542#34543#0" expanded="true" />
+            <element signature="e#34593#34594#0" expanded="true" />
+            <element signature="e#34666#34667#0" expanded="true" />
+            <element signature="e#34703#34704#0" expanded="true" />
+            <element signature="e#35744#35745#0" expanded="true" />
+            <element signature="e#35781#35782#0" expanded="true" />
+            <element signature="e#35913#35914#0" expanded="true" />
+            <element signature="e#35941#35942#0" expanded="true" />
+            <element signature="e#36036#36037#0" expanded="true" />
+            <element signature="e#36087#36088#0" expanded="true" />
+            <element signature="e#37385#37386#0" expanded="true" />
+            <element signature="e#37435#37436#0" expanded="true" />
+            <element signature="e#37470#37471#0" expanded="true" />
+            <element signature="e#37521#37522#0" expanded="true" />
+            <element signature="e#37946#37947#0" expanded="true" />
+            <element signature="e#37996#37997#0" expanded="true" />
+            <element signature="e#38031#38032#0" expanded="true" />
+            <element signature="e#38082#38083#0" expanded="true" />
+            <element signature="e#38506#38507#0" expanded="true" />
+            <element signature="e#38556#38557#0" expanded="true" />
+            <element signature="e#38591#38592#0" expanded="true" />
+            <element signature="e#38642#38643#0" expanded="true" />
+            <element signature="e#39466#39467#0" expanded="true" />
+            <element signature="e#39517#39518#0" expanded="true" />
+            <element signature="e#39948#39949#0" expanded="true" />
+            <element signature="e#39999#40000#0" expanded="true" />
+            <element signature="e#40454#40455#0" expanded="true" />
+            <element signature="e#40504#40505#0" expanded="true" />
+            <element signature="e#40539#40540#0" expanded="true" />
+            <element signature="e#40590#40591#0" expanded="true" />
+            <element signature="e#40985#40986#0" expanded="true" />
+            <element signature="e#41036#41037#0" expanded="true" />
+            <element signature="e#41508#41509#0" expanded="true" />
+            <element signature="e#41563#41564#0" expanded="true" />
+            <element signature="e#42409#42410#0" expanded="true" />
+            <element signature="e#42459#42460#0" expanded="true" />
+            <element signature="e#42494#42495#0" expanded="true" />
+            <element signature="e#42545#42546#0" expanded="true" />
+            <element signature="e#42961#42962#0" expanded="true" />
+            <element signature="e#43011#43012#0" expanded="true" />
+            <element signature="e#43046#43047#0" expanded="true" />
+            <element signature="e#43097#43098#0" expanded="true" />
+            <element signature="e#43525#43526#0" expanded="true" />
+            <element signature="e#43575#43576#0" expanded="true" />
+            <element signature="e#43610#43611#0" expanded="true" />
+            <element signature="e#43661#43662#0" expanded="true" />
+            <element signature="e#44095#44096#0" expanded="true" />
+            <element signature="e#44146#44147#0" expanded="true" />
+            <element signature="e#54051#54052#0" expanded="true" />
+            <element signature="e#54101#54102#0" expanded="true" />
+            <element signature="e#54136#54137#0" expanded="true" />
+            <element signature="e#54187#54188#0" expanded="true" />
+            <element signature="e#54259#54260#0" expanded="true" />
+            <element signature="e#54296#54297#0" expanded="true" />
+            <element signature="e#55547#55548#0" expanded="true" />
+            <element signature="e#55584#55585#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/antlr-4.7.1-complete.jar!/org/antlr/v4/runtime/tree/AbstractParseTreeVisitor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="110" column="17" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/antlr-4.7.1-complete.jar!/org/antlr/v4/runtime/ParserRuleContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="134" column="47" lean-forward="true" selection-start-line="134" selection-start-column="47" selection-end-line="134" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LabeledExprBaseVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="193" selection-start-line="193" selection-end-line="194" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LabeledExprVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LabeledExpr.g4">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="9" column="7" selection-start-line="9" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EvalVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="11" column="65" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#500#516#0" expanded="true" />
+            <element signature="e#504#519#0" expanded="true" />
+            <element signature="e#5800#5801#0" expanded="true" />
+            <element signature="e#5841#5842#0" expanded="true" />
+            <element signature="e#6877#6878#0" expanded="true" />
+            <element signature="e#6927#6928#0" expanded="true" />
+            <element signature="e#7009#7010#0" expanded="true" />
+            <element signature="e#7063#7064#0" expanded="true" />
+            <element signature="e#7572#7573#0" expanded="true" />
+            <element signature="e#7618#7619#0" expanded="true" />
+            <element signature="e#8775#8776#0" expanded="true" />
+            <element signature="e#8827#8828#0" expanded="true" />
+            <element signature="e#9173#9174#0" expanded="true" />
+            <element signature="e#9216#9217#0" expanded="true" />
+            <element signature="e#9811#9812#0" expanded="true" />
+            <element signature="e#9853#9854#0" expanded="true" />
+            <element signature="e#9941#9942#0" expanded="true" />
+            <element signature="e#9988#9989#0" expanded="true" />
+            <element signature="e#10243#10244#0" expanded="true" />
+            <element signature="e#10290#10291#0" expanded="true" />
+            <element signature="e#11324#11325#0" expanded="true" />
+            <element signature="e#11365#11366#0" expanded="true" />
+            <element signature="e#12941#12942#0" expanded="true" />
+            <element signature="e#12984#12985#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Demo</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
