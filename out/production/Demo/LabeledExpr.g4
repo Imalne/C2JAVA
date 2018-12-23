@@ -4,7 +4,7 @@ grammar LabeledExpr;
 prog: include* normalFunc* mainDecl normalFunc*;
 
 
-include : '#include' HEAD;
+include : ('#include' HEAD) | ('using' 'namespace' ID ';');
 mainDecl:type 'main' '(' parameters? ')'block;
 normalFunc:type ID '('parameters?')' block;
 valDecl: type ID ('=' expr)?                    # singleVariable

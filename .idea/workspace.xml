@@ -4,7 +4,82 @@
     <bookmark url="file://$PROJECT_DIR$/src/Main.java" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94a49475-ad90-48de-8f0b-b80d3192c0f2" name="Default Changelist" comment="" />
+    <list default="true" id="94a49475-ad90-48de-8f0b-b80d3192c0f2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/EvalVisitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/EvalVisitor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/LabeledExpr.g4" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/LabeledExpr.g4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/LabeledExpr.interp" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/LabeledExpr.interp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/LabeledExpr.tokens" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/LabeledExpr.tokens" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/LabeledExprLexer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/LabeledExprLexer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/LabeledExprLexer.interp" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/LabeledExprLexer.interp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/LabeledExprLexer.tokens" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/LabeledExprLexer.tokens" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$ArrayAccessContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$ArrayAccessContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$ArrayInitValuesContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$ArrayInitValuesContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$ArrayInitVariableContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$ArrayInitVariableContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$ArrayVariableContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$ArrayVariableContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$AssignContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$AssignContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$BitwiseAndContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$BitwiseAndContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$BlockContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$BlockContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$BoolArrayInitContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$BoolArrayInitContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$BoolContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$BoolContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$ByteShiftContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$ByteShiftContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$CharContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$CharContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$ConsoleIntContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$ConsoleIntContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$ConsoleOutContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$ConsoleOutContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$ElseifContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$ElseifContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$ExprContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$ExprContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$ExprListContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$ExprListContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$ForContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$ForContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$ForLoopContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$ForLoopContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$FuncCallContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$FuncCallContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$IdContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$IdContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$IfContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$IfContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$IncludeContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$IncludeContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$IncreaseAndDecreaseAfterContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$IncreaseAndDecreaseAfterContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$IncreaseAndDecreaseBeforeContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$IncreaseAndDecreaseBeforeContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$IntArrayInitContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$IntArrayInitContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$IntContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$IntContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$Logical_cpContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$Logical_cpContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$MainDeclContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$MainDeclContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$MulAndDivContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$MulAndDivContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$NegateContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$NegateContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$NegativeContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$NegativeContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$NewBlockContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$NewBlockContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$NormalFuncContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$NormalFuncContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$ParameterContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$ParameterContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$ParametersContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$ParametersContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$ParenthesesContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$ParenthesesContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$PlusAndSubContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$PlusAndSubContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$ProgContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$ProgContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$ReturnContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$ReturnContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$SelfPlusAndSubContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$SelfPlusAndSubContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$SingleVariableContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$SingleVariableContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$StatContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$StatContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$StatExprContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$StatExprContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$StringArrayInitContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$StringArrayInitContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$StringContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$StringContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$SwitchContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$SwitchContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$Switch_caseContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$Switch_caseContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$Switch_defaultContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$Switch_defaultContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$TypeContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$TypeContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$ValDeclContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$ValDeclContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$VariableAssignContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$VariableAssignContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$VariableDeclareContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$VariableDeclareContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$WhileContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$WhileContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$WhileLoopContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser$WhileLoopContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/LabeledExprParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EvalVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EvalVisitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LabeledExpr.g4" beforeDir="false" afterPath="$PROJECT_DIR$/src/LabeledExpr.g4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LabeledExpr.interp" beforeDir="false" afterPath="$PROJECT_DIR$/src/LabeledExpr.interp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LabeledExpr.tokens" beforeDir="false" afterPath="$PROJECT_DIR$/src/LabeledExpr.tokens" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LabeledExprLexer.interp" beforeDir="false" afterPath="$PROJECT_DIR$/src/LabeledExprLexer.interp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LabeledExprLexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LabeledExprLexer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LabeledExprLexer.tokens" beforeDir="false" afterPath="$PROJECT_DIR$/src/LabeledExprLexer.tokens" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LabeledExprParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LabeledExprParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,37 +95,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/EvalVisitor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="11" column="65" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
+            <state relative-caret-position="246">
+              <caret line="440" column="47" lean-forward="true" selection-start-line="440" selection-start-column="47" selection-end-line="440" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#500#516#0" expanded="true" />
+                <element signature="e#430#446#0" expanded="true" />
                 <element signature="e#504#519#0" expanded="true" />
-                <element signature="e#5800#5801#0" expanded="true" />
-                <element signature="e#5841#5842#0" expanded="true" />
-                <element signature="e#6877#6878#0" expanded="true" />
-                <element signature="e#6927#6928#0" expanded="true" />
-                <element signature="e#7009#7010#0" expanded="true" />
-                <element signature="e#7063#7064#0" expanded="true" />
-                <element signature="e#7572#7573#0" expanded="true" />
-                <element signature="e#7618#7619#0" expanded="true" />
-                <element signature="e#8775#8776#0" expanded="true" />
-                <element signature="e#8827#8828#0" expanded="true" />
-                <element signature="e#9173#9174#0" expanded="true" />
-                <element signature="e#9216#9217#0" expanded="true" />
-                <element signature="e#9811#9812#0" expanded="true" />
-                <element signature="e#9853#9854#0" expanded="true" />
-                <element signature="e#9941#9942#0" expanded="true" />
-                <element signature="e#9988#9989#0" expanded="true" />
-                <element signature="e#10243#10244#0" expanded="true" />
-                <element signature="e#10290#10291#0" expanded="true" />
-                <element signature="e#11324#11325#0" expanded="true" />
-                <element signature="e#11365#11366#0" expanded="true" />
-                <element signature="e#12941#12942#0" expanded="true" />
-                <element signature="e#12984#12985#0" expanded="true" />
+                <element signature="e#5772#5773#0" expanded="true" />
+                <element signature="e#5813#5814#0" expanded="true" />
+                <element signature="e#6841#6842#0" expanded="true" />
+                <element signature="e#6891#6892#0" expanded="true" />
+                <element signature="e#6971#6972#0" expanded="true" />
+                <element signature="e#7025#7026#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -68,17 +127,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+            <state relative-caret-position="31">
+              <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/LabeledExpr.g4">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="9" column="7" selection-start-line="9" selection-end-line="9" selection-end-column="7" />
+            <state relative-caret-position="186">
+              <caret line="6" column="57" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -86,8 +145,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="651">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="168">
+              <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -106,11 +165,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>newblock</find>
-      <find>#</find>
-      <find>parameter</find>
-      <find>printf.*</find>
-      <find>void</find>
       <find>stringArrayInit</find>
       <find>tochar</find>
       <find>STRING</find>
@@ -131,16 +185,25 @@
       <find>forloop</find>
       <find>case</find>
       <find>singlevaria</find>
-      <find>block</find>
       <find>array</find>
       <find>arrayaccess</find>
       <find>normalFunc</find>
+      <find>public String</find>
+      <find>visitty</find>
+      <find>printf</find>
       <find>assign</find>
+      <find>visitInt</find>
+      <find>visitCONSOLEoUT</find>
+      <find>block</find>
     </findStrings>
     <replaceStrings>
       <replace>String</replace>
       <replace />
+      <replace>public Node</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -148,12 +211,12 @@
         <option value="$PROJECT_DIR$/Hello.g4" />
         <option value="$PROJECT_DIR$/LabeledExpr.g4" />
         <option value="$PROJECT_DIR$/src/data.txt" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/LabeledExprBaseVisitor.java" />
+        <option value="$PROJECT_DIR$/src/Node.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/EvalVisitor.java" />
         <option value="$PROJECT_DIR$/data.txt" />
         <option value="$PROJECT_DIR$/src/LabeledExpr.g4" />
-        <option value="$PROJECT_DIR$/src/Node.java" />
-        <option value="$PROJECT_DIR$/src/EvalVisitor.java" />
       </list>
     </option>
   </component>
@@ -163,6 +226,7 @@
     <option name="width" value="978" />
     <option name="height" value="1039" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -200,7 +264,7 @@
     <property name="$PROJECT_DIR$/src/LabeledExpr.g4::/output-dir" value="C:\Users\Whale\IdeaProjects\Demo\out" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545574026662" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545580680615" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -276,12 +340,12 @@
       <workItem from="1545492660962" duration="1894000" />
       <workItem from="1545494571029" duration="10835000" />
       <workItem from="1545542470130" duration="11435000" />
-      <workItem from="1545558191934" duration="9594000" />
+      <workItem from="1545558191934" duration="16247000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84481000" />
+    <option name="totallyTimeSpent" value="91134000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -296,7 +360,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12953092" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12953092" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -306,12 +370,12 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3217768" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.22101842" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.31127983" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
       <window_info anchor="bottom" id="Log Viewer" order="7" weight="0.32956153" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49932975" weight="0.35211268" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49932975" weight="0.35140997" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067025" side_tool="true" weight="0.32956153" />
       <window_info anchor="bottom" id="Tool Output" order="11" weight="0.32936078" />
@@ -320,7 +384,7 @@
       <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="bottom" id="ANTLR Preview" order="15" sideWeight="0.49932975" weight="0.4452871" />
       <window_info anchor="bottom" id="SOQL Query" order="16" weight="0.32936078" />
-      <window_info anchor="bottom" id="Messages" order="17" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" order="17" weight="0.3286334" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -373,16 +437,6 @@
     <option name="version" value="1" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>21</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="ctx.parent instanceof LabeledExprParser.AssignContext" language="JAVA" />
@@ -680,30 +734,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LabeledExpr.g4">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="9" column="7" selection-start-line="9" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Node.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="93">
@@ -711,37 +741,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/EvalVisitor.java">
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="11" column="65" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
+        <state relative-caret-position="168">
+          <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#500#516#0" expanded="true" />
-            <element signature="e#504#519#0" expanded="true" />
-            <element signature="e#5800#5801#0" expanded="true" />
-            <element signature="e#5841#5842#0" expanded="true" />
-            <element signature="e#6877#6878#0" expanded="true" />
-            <element signature="e#6927#6928#0" expanded="true" />
-            <element signature="e#7009#7010#0" expanded="true" />
-            <element signature="e#7063#7064#0" expanded="true" />
-            <element signature="e#7572#7573#0" expanded="true" />
-            <element signature="e#7618#7619#0" expanded="true" />
-            <element signature="e#8775#8776#0" expanded="true" />
-            <element signature="e#8827#8828#0" expanded="true" />
-            <element signature="e#9173#9174#0" expanded="true" />
-            <element signature="e#9216#9217#0" expanded="true" />
-            <element signature="e#9811#9812#0" expanded="true" />
-            <element signature="e#9853#9854#0" expanded="true" />
-            <element signature="e#9941#9942#0" expanded="true" />
-            <element signature="e#9988#9989#0" expanded="true" />
-            <element signature="e#10243#10244#0" expanded="true" />
-            <element signature="e#10290#10291#0" expanded="true" />
-            <element signature="e#11324#11325#0" expanded="true" />
-            <element signature="e#11365#11366#0" expanded="true" />
-            <element signature="e#12941#12942#0" expanded="true" />
-            <element signature="e#12984#12985#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EvalVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="440" column="47" lean-forward="true" selection-start-line="440" selection-start-column="47" selection-end-line="440" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#430#446#0" expanded="true" />
+            <element signature="e#504#519#0" expanded="true" />
+            <element signature="e#5772#5773#0" expanded="true" />
+            <element signature="e#5813#5814#0" expanded="true" />
+            <element signature="e#6841#6842#0" expanded="true" />
+            <element signature="e#6891#6892#0" expanded="true" />
+            <element signature="e#6971#6972#0" expanded="true" />
+            <element signature="e#7025#7026#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LabeledExpr.g4">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="6" column="57" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
         </state>
       </provider>
     </entry>

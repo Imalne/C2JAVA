@@ -18,7 +18,7 @@ public class Main {
         LabeledExprParser parser = new LabeledExprParser(tokens);
         ParseTree tree = parser.prog(); // parse
         EvalVisitor eval = new EvalVisitor();
-        String result = eval.visit(tree);
-        System.out.println(result);
+        Node result = eval.visit(tree);
+        System.out.println(result.visitString);
     }
 }
