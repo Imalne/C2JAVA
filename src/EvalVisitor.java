@@ -248,7 +248,7 @@ public class EvalVisitor extends LabeledExprBaseVisitor<Node> {
         Node node = new Node();
         node.visitString = expr_1.visitString + '=' + expr_2.visitString;
         if(!expr_1.type.equals(expr_2.type))
-            System.out.printf("$s cann't be assign to %s\n",expr_2.type,expr_1.type);
+            System.out.printf("%s(%s) cann't be assign to %s(%s)\n",expr_2.visitString,expr_2.type,expr_1.visitString,expr_1.type);
         return  node;
     }
 
@@ -320,7 +320,7 @@ public class EvalVisitor extends LabeledExprBaseVisitor<Node> {
         Node expr_1 = visit(ctx.expr(0));
         Node expr_2 = visit(ctx.expr(1));
         node.visitString = expr_1.visitString+ctx.op.getText()+expr_2.visitString;
-        if(expr_1.type.equals(expr_2.type)){
+        if(!expr_1.type.equals(expr_2.type)){
             System.out.printf("%s cann't %s %s\n",expr_1.type,ctx.op.getText(),expr_2.type);
         }
         node.type = expr_1.type;
@@ -431,7 +431,7 @@ public class EvalVisitor extends LabeledExprBaseVisitor<Node> {
         else if(func_type.containsKey(node.visitString)){
             node.type = func_type.get(node.visitString);
         }
-        node.type = "";
+
         return node;
     }
 
@@ -455,7 +455,7 @@ public class EvalVisitor extends LabeledExprBaseVisitor<Node> {
         Node expr_1 = visit(ctx.expr(0));
         Node expr_2 = visit(ctx.expr(1));
         node.visitString = expr_1.visitString+ctx.op.getText()+expr_2.visitString;
-        if(expr_1.type.equals(expr_2.type)){
+        if(!expr_1.type.equals(expr_2.type)){
             System.out.printf("%s cann't %s %s\n",expr_1.type,ctx.op.getText(),expr_2.type);
         }
         node.type = expr_1.type;
@@ -478,7 +478,7 @@ public class EvalVisitor extends LabeledExprBaseVisitor<Node> {
         Node expr_1 = visit(ctx.expr(0));
         Node expr_2 = visit(ctx.expr(1));
         node.visitString = expr_1.visitString+ctx.op.getText()+expr_2.visitString;
-        if(expr_1.type.equals(expr_2.type)){
+        if(!expr_1.type.equals(expr_2.type)){
             System.out.printf("%s cann't %s %s\n",expr_1.type,ctx.op.getText(),expr_2.type);
         }
         node.type = expr_1.type;

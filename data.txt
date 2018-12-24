@@ -4,7 +4,7 @@ int main()
 {
     char str[100];
     int len = 0;
-    bool flag = true;
+    int flag = true;
     int i = 0;
     str[i] = getchar();
     while (str[i] != '\n')
