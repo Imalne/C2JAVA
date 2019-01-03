@@ -7,7 +7,18 @@
     <list default="true" id="94a49475-ad90-48de-8f0b-b80d3192c0f2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/EvalVisitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/EvalVisitor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/EvalVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EvalVisitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LabeledExpr.g4" beforeDir="false" afterPath="$PROJECT_DIR$/src/LabeledExpr.g4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LabeledExpr.interp" beforeDir="false" afterPath="$PROJECT_DIR$/src/LabeledExpr.interp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LabeledExpr.tokens" beforeDir="false" afterPath="$PROJECT_DIR$/src/LabeledExpr.tokens" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LabeledExprBaseVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LabeledExprBaseVisitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LabeledExprLexer.interp" beforeDir="false" afterPath="$PROJECT_DIR$/src/LabeledExprLexer.interp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LabeledExprLexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LabeledExprLexer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LabeledExprLexer.tokens" beforeDir="false" afterPath="$PROJECT_DIR$/src/LabeledExprLexer.tokens" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LabeledExprParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LabeledExprParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LabeledExprVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LabeledExprVisitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,20 +38,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/EvalVisitor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="250" column="117" selection-start-line="250" selection-start-column="117" selection-end-line="250" selection-end-column="117" />
+            <state relative-caret-position="259">
+              <caret line="321" column="13" lean-forward="true" selection-start-line="321" selection-start-column="13" selection-end-line="321" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Node.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -48,8 +50,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+            <state relative-caret-position="648">
+              <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -57,20 +59,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LabeledExpr.g4">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+            <state relative-caret-position="186">
+              <caret line="60" column="35" selection-start-line="60" selection-start-column="35" selection-end-line="60" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/LabeledExprVisitor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="390">
+              <caret line="377" column="63" lean-forward="true" selection-start-line="377" selection-start-column="4" selection-end-line="377" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -86,41 +85,42 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>STRING</find>
-      <find>to</find>
-      <find>visitString</find>
-      <find>console</find>
-      <find>plus</find>
-      <find>consoleI</find>
-      <find>arrayi</find>
-      <find>consoleinDe</find>
-      <find>CHA</find>
-      <find>switch</find>
-      <find>try</find>
-      <find>huanhang</find>
-      <find>TIPS</find>
-      <find>NO_ANSWER</find>
-      <find>answer_index</find>
-      <find>forloop</find>
-      <find>case</find>
-      <find>singlevaria</find>
-      <find>array</find>
-      <find>arrayaccess</find>
-      <find>normalFunc</find>
-      <find>public String</find>
-      <find>visitty</find>
-      <find>printf</find>
-      <find>assign</find>
-      <find>visitInt</find>
-      <find>visitCONSOLEoUT</find>
-      <find>block</find>
+      <find>tern</find>
+      <find>if</find>
+      <find>assign`</find>
+      <find>valdecl</find>
+      <find>visitvaldecl</find>
+      <find>func_type</find>
+      <find>singleva</find>
+      <find>singe</find>
+      <find>logical_cp</find>
+      <find>ID</find>
       <find>visitID</find>
-      <find>cann't</find>
+      <find>int top</find>
+      <find>arrayVariable</find>
+      <find>singleVariable</find>
+      <find>predefined</find>
+      <find>visitstructTy</find>
+      <find>single</find>
+      <find>key_type</find>
+      <find>negate</find>
+      <find>logical_op</find>
+      <find>visitif</find>
+      <find>elseif</find>
+      <find>visitelseif</find>
+      <find>stackFull</find>
+      <find>normalfunc</find>
+      <find>funccall</find>
+      <find>struct</find>
+      <find>syste</find>
+      <find>index</find>
+      <find>assign</find>
     </findStrings>
     <replaceStrings>
       <replace>String</replace>
       <replace />
       <replace>public Node</replace>
+      <replace>S</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -136,9 +136,10 @@
         <option value="$PROJECT_DIR$/src/LabeledExprBaseVisitor.java" />
         <option value="$PROJECT_DIR$/src/Node.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/LabeledExprVisitor.java" />
         <option value="$PROJECT_DIR$/src/LabeledExpr.g4" />
-        <option value="$PROJECT_DIR$/data.txt" />
         <option value="$PROJECT_DIR$/src/EvalVisitor.java" />
+        <option value="$PROJECT_DIR$/data.txt" />
       </list>
     </option>
   </component>
@@ -154,8 +155,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -186,7 +187,7 @@
     <property name="$PROJECT_DIR$/src/LabeledExpr.g4::/output-dir" value="C:\Users\Whale\IdeaProjects\Demo\out" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545580816659" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546531240540" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -197,11 +198,11 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Whale\IdeaProjects\Demo" />
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Whale\IdeaProjects\Demo\src" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Whale\IdeaProjects\Demo" />
       <recent name="C:\Users\Whale\IdeaProjects\Demo\src" />
     </key>
   </component>
@@ -263,7 +264,9 @@
       <workItem from="1545494571029" duration="10835000" />
       <workItem from="1545542470130" duration="11435000" />
       <workItem from="1545558191934" duration="16486000" />
-      <workItem from="1545627451620" duration="2566000" />
+      <workItem from="1545627451620" duration="2995000" />
+      <workItem from="1545924272884" duration="210000" />
+      <workItem from="1546504813516" duration="24889000" />
     </task>
     <task id="LOCAL-00001" summary="add Type check (with bug)">
       <created>1545580786751</created>
@@ -272,11 +275,18 @@
       <option name="project" value="LOCAL" />
       <updated>1545580786752</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fix bug in Type check">
+      <created>1545641098280</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1545641098281</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93939000" />
+    <option name="totallyTimeSpent" value="119467000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -288,10 +298,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13059701" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13272922" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -300,22 +310,21 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3217768" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.31127983" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
-      <window_info anchor="bottom" id="Log Viewer" order="7" weight="0.32956153" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49932975" weight="0.35140997" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067025" side_tool="true" weight="0.32956153" />
-      <window_info anchor="bottom" id="Tool Output" order="11" weight="0.32936078" />
-      <window_info anchor="bottom" id="Anonymous Apex" order="12" sideWeight="0.78016084" weight="0.32936078" />
-      <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" />
-      <window_info anchor="bottom" id="ANTLR Preview" order="15" sideWeight="0.49932975" weight="0.4452871" />
-      <window_info anchor="bottom" id="SOQL Query" order="16" weight="0.32936078" />
-      <window_info anchor="bottom" id="Messages" order="17" weight="0.3286334" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.19088937" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="5" weight="0.32956153" />
+      <window_info anchor="bottom" id="Log Viewer" order="6" weight="0.3286334" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49932975" weight="0.14533623" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50067025" side_tool="true" weight="0.32956153" />
+      <window_info anchor="bottom" id="Tool Output" order="10" weight="0.32936078" />
+      <window_info anchor="bottom" id="Anonymous Apex" order="11" sideWeight="0.78016084" weight="0.32936078" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.329718" />
+      <window_info anchor="bottom" id="ANTLR Preview" order="14" sideWeight="0.49932975" weight="0.43167028" />
+      <window_info anchor="bottom" id="SOQL Query" order="15" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" order="16" weight="0.3286334" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -326,6 +335,7 @@
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32995737" />
+      <window_info anchor="right" id="Debug" order="10" weight="0.32569295" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21428572" />
@@ -369,23 +379,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add Type check (with bug)" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Type check (with bug)" />
+    <MESSAGE value="fix bug in Type check" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix bug in Type check" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/EvalVisitor.java</url>
-          <line>250</line>
-          <properties />
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="ctx.parent instanceof LabeledExprParser.AssignContext" language="JAVA" />
-        <watch expression="ctx.getText()" language="JAVA" />
+        <watch expression="type" language="JAVA" />
+        <watch expression="func_type" language="JAVA" />
         <watch expression="expr_1.type" language="JAVA" />
         <watch expression="expr_2.type" language="JAVA" />
       </configuration>
@@ -394,12 +395,12 @@
   <component name="debuggerHistoryManager">
     <expressions id="watch">
       <expression>
-        <expression-string>expr_2.type</expression-string>
+        <expression-string>type</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>expr_1.type</expression-string>
+        <expression-string>visit(ctx.type()).type.indexOf(&quot;struct&quot;)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -409,37 +410,37 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>ctx.parent instanceof LabeledExprParser.AssignContext</expression-string>
+        <expression-string>key_type</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>ctx.parent instanceof LabeledExprParser.ArrayInitValuesContext</expression-string>
+        <expression-string>func_type</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>ctx.parent</expression-string>
+        <expression-string>func_type'</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>ctx.getParent()</expression-string>
+        <expression-string>parentNode.getText()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>ctx.getParent()instanceof LabeledExprParser.ExprContext</expression-string>
+        <expression-string>curNode.getText()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>ctx.getParent()instanceof LabeledExprParser.ValDeclContext</expression-string>
+        <expression-string>ctx.expr().size()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>ctx.arrayInitValues().stringArrayInit()ctx.getParent()instanceof LabeledExprParser.ValDeclContext</expression-string>
+        <expression-string>ctx.assign().getText()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -493,183 +494,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LabeledExprParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="507" column="38" selection-start-line="507" selection-start-column="38" selection-end-line="507" selection-end-column="38" />
-          <folding>
-            <element signature="e#10433#10434#0" expanded="true" />
-            <element signature="e#10495#10496#0" expanded="true" />
-            <element signature="e#12664#12665#0" expanded="true" />
-            <element signature="e#12726#12727#0" expanded="true" />
-            <element signature="e#12772#12773#0" expanded="true" />
-            <element signature="e#12831#12832#0" expanded="true" />
-            <element signature="e#12879#12880#0" expanded="true" />
-            <element signature="e#12939#12940#0" expanded="true" />
-            <element signature="e#13018#13019#0" expanded="true" />
-            <element signature="e#13055#13056#0" expanded="true" />
-            <element signature="e#14467#14468#0" expanded="true" />
-            <element signature="e#14520#14521#0" expanded="true" />
-            <element signature="e#14599#14600#0" expanded="true" />
-            <element signature="e#14636#14637#0" expanded="true" />
-            <element signature="e#15923#15924#0" expanded="true" />
-            <element signature="e#15973#15974#0" expanded="true" />
-            <element signature="e#16049#16050#0" expanded="true" />
-            <element signature="e#16086#16087#0" expanded="true" />
-            <element signature="e#17350#17351#0" expanded="true" />
-            <element signature="e#17401#17402#0" expanded="true" />
-            <element signature="e#17478#17479#0" expanded="true" />
-            <element signature="e#17515#17516#0" expanded="true" />
-            <element signature="e#18714#18715#0" expanded="true" />
-            <element signature="e#18769#18770#0" expanded="true" />
-            <element signature="e#18814#18815#0" expanded="true" />
-            <element signature="e#18870#18871#0" expanded="true" />
-            <element signature="e#18944#18945#0" expanded="true" />
-            <element signature="e#18981#18982#0" expanded="true" />
-            <element signature="e#20142#20143#0" expanded="true" />
-            <element signature="e#20193#20194#0" expanded="true" />
-            <element signature="e#20339#20340#0" expanded="true" />
-            <element signature="e#20376#20377#0" expanded="true" />
-            <element signature="e#21285#21286#0" expanded="true" />
-            <element signature="e#21335#21336#0" expanded="true" />
-            <element signature="e#21370#21371#0" expanded="true" />
-            <element signature="e#21421#21422#0" expanded="true" />
-            <element signature="e#21490#21491#0" expanded="true" />
-            <element signature="e#21527#21528#0" expanded="true" />
-            <element signature="e#22949#22950#0" expanded="true" />
-            <element signature="e#22986#22987#0" expanded="true" />
-            <element signature="e#23118#23119#0" expanded="true" />
-            <element signature="e#23146#23147#0" expanded="true" />
-            <element signature="e#23240#23241#0" expanded="true" />
-            <element signature="e#23292#23293#0" expanded="true" />
-            <element signature="e#23697#23698#0" expanded="true" />
-            <element signature="e#23750#23751#0" expanded="true" />
-            <element signature="e#24158#24159#0" expanded="true" />
-            <element signature="e#24212#24213#0" expanded="true" />
-            <element signature="e#24597#24598#0" expanded="true" />
-            <element signature="e#24648#24649#0" expanded="true" />
-            <element signature="e#25050#25051#0" expanded="true" />
-            <element signature="e#25106#25107#0" expanded="true" />
-            <element signature="e#25508#25509#0" expanded="true" />
-            <element signature="e#25562#25563#0" expanded="true" />
-            <element signature="e#25965#25966#0" expanded="true" />
-            <element signature="e#26016#26017#0" expanded="true" />
-            <element signature="e#26052#26053#0" expanded="true" />
-            <element signature="e#26102#26103#0" expanded="true" />
-            <element signature="e#26137#26138#0" expanded="true" />
-            <element signature="e#26188#26189#0" expanded="true" />
-            <element signature="e#26228#26229#0" expanded="true" />
-            <element signature="e#26280#26281#0" expanded="true" />
-            <element signature="e#26319#26320#0" expanded="true" />
-            <element signature="e#26372#26373#0" expanded="true" />
-            <element signature="e#26753#26754#0" expanded="true" />
-            <element signature="e#26804#26805#0" expanded="true" />
-            <element signature="e#30137#30138#0" expanded="true" />
-            <element signature="e#30188#30189#0" expanded="true" />
-            <element signature="e#30218#30219#0" expanded="true" />
-            <element signature="e#30269#30270#0" expanded="true" />
-            <element signature="e#30339#30340#0" expanded="true" />
-            <element signature="e#30376#30377#0" expanded="true" />
-            <element signature="e#31401#31402#0" expanded="true" />
-            <element signature="e#31451#31452#0" expanded="true" />
-            <element signature="e#31486#31487#0" expanded="true" />
-            <element signature="e#31537#31538#0" expanded="true" />
-            <element signature="e#31607#31608#0" expanded="true" />
-            <element signature="e#31644#31645#0" expanded="true" />
-            <element signature="e#32567#32568#0" expanded="true" />
-            <element signature="e#32617#32618#0" expanded="true" />
-            <element signature="e#32652#32653#0" expanded="true" />
-            <element signature="e#32703#32704#0" expanded="true" />
-            <element signature="e#32733#32734#0" expanded="true" />
-            <element signature="e#32784#32785#0" expanded="true" />
-            <element signature="e#32820#32821#0" expanded="true" />
-            <element signature="e#32874#32875#0" expanded="true" />
-            <element signature="e#32945#32946#0" expanded="true" />
-            <element signature="e#32982#32983#0" expanded="true" />
-            <element signature="e#34461#34462#0" expanded="true" />
-            <element signature="e#34512#34513#0" expanded="true" />
-            <element signature="e#34542#34543#0" expanded="true" />
-            <element signature="e#34593#34594#0" expanded="true" />
-            <element signature="e#34666#34667#0" expanded="true" />
-            <element signature="e#34703#34704#0" expanded="true" />
-            <element signature="e#35744#35745#0" expanded="true" />
-            <element signature="e#35781#35782#0" expanded="true" />
-            <element signature="e#35913#35914#0" expanded="true" />
-            <element signature="e#35941#35942#0" expanded="true" />
-            <element signature="e#36036#36037#0" expanded="true" />
-            <element signature="e#36087#36088#0" expanded="true" />
-            <element signature="e#37385#37386#0" expanded="true" />
-            <element signature="e#37435#37436#0" expanded="true" />
-            <element signature="e#37470#37471#0" expanded="true" />
-            <element signature="e#37521#37522#0" expanded="true" />
-            <element signature="e#37946#37947#0" expanded="true" />
-            <element signature="e#37996#37997#0" expanded="true" />
-            <element signature="e#38031#38032#0" expanded="true" />
-            <element signature="e#38082#38083#0" expanded="true" />
-            <element signature="e#38506#38507#0" expanded="true" />
-            <element signature="e#38556#38557#0" expanded="true" />
-            <element signature="e#38591#38592#0" expanded="true" />
-            <element signature="e#38642#38643#0" expanded="true" />
-            <element signature="e#39466#39467#0" expanded="true" />
-            <element signature="e#39517#39518#0" expanded="true" />
-            <element signature="e#39948#39949#0" expanded="true" />
-            <element signature="e#39999#40000#0" expanded="true" />
-            <element signature="e#40454#40455#0" expanded="true" />
-            <element signature="e#40504#40505#0" expanded="true" />
-            <element signature="e#40539#40540#0" expanded="true" />
-            <element signature="e#40590#40591#0" expanded="true" />
-            <element signature="e#40985#40986#0" expanded="true" />
-            <element signature="e#41036#41037#0" expanded="true" />
-            <element signature="e#41508#41509#0" expanded="true" />
-            <element signature="e#41563#41564#0" expanded="true" />
-            <element signature="e#42409#42410#0" expanded="true" />
-            <element signature="e#42459#42460#0" expanded="true" />
-            <element signature="e#42494#42495#0" expanded="true" />
-            <element signature="e#42545#42546#0" expanded="true" />
-            <element signature="e#42961#42962#0" expanded="true" />
-            <element signature="e#43011#43012#0" expanded="true" />
-            <element signature="e#43046#43047#0" expanded="true" />
-            <element signature="e#43097#43098#0" expanded="true" />
-            <element signature="e#43525#43526#0" expanded="true" />
-            <element signature="e#43575#43576#0" expanded="true" />
-            <element signature="e#43610#43611#0" expanded="true" />
-            <element signature="e#43661#43662#0" expanded="true" />
-            <element signature="e#44095#44096#0" expanded="true" />
-            <element signature="e#44146#44147#0" expanded="true" />
-            <element signature="e#54051#54052#0" expanded="true" />
-            <element signature="e#54101#54102#0" expanded="true" />
-            <element signature="e#54136#54137#0" expanded="true" />
-            <element signature="e#54187#54188#0" expanded="true" />
-            <element signature="e#54259#54260#0" expanded="true" />
-            <element signature="e#54296#54297#0" expanded="true" />
-            <element signature="e#55547#55548#0" expanded="true" />
-            <element signature="e#55584#55585#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/antlr-4.7.1-complete.jar!/org/antlr/v4/runtime/tree/AbstractParseTreeVisitor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="e#307#308#0" expanded="true" />
-            <element signature="e#347#348#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
           <caret line="110" column="17" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/antlr-4.7.1-complete.jar!/org/antlr/v4/runtime/ParserRuleContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="134" column="47" lean-forward="true" selection-start-line="134" selection-start-column="47" selection-end-line="134" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -680,13 +508,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LabeledExprVisitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Node.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="93">
@@ -694,34 +515,83 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/antlr-4.7.1-complete.jar!/org/antlr/v4/runtime/ParserRuleContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="190" selection-start-line="190" selection-end-line="190" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/antlr-4.7.1-complete.jar!/org/antlr/v4/runtime/tree/AbstractParseTreeVisitor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#347#348#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LabeledExprParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="2055" selection-start-line="2055" selection-end-line="2055" />
+          <folding>
+            <element signature="e#4301#4302#0" expanded="true" />
+            <element signature="e#4356#4357#0" expanded="true" />
+            <element signature="e#12187#12188#0" expanded="true" />
+            <element signature="e#12239#12240#0" expanded="true" />
+            <element signature="e#32270#32271#0" expanded="true" />
+            <element signature="e#32323#32324#0" expanded="true" />
+            <element signature="e#45685#45686#0" expanded="true" />
+            <element signature="e#45736#45737#0" expanded="true" />
+            <element signature="e#50384#50385#0" expanded="true" />
+            <element signature="e#50435#50436#0" expanded="true" />
+            <element signature="e#52379#52380#0" expanded="true" />
+            <element signature="e#52430#52431#0" expanded="true" />
+            <element signature="e#57707#57708#0" expanded="true" />
+            <element signature="e#57762#57763#0" expanded="true" />
+            <element signature="e#60354#60355#0" expanded="true" />
+            <element signature="e#60405#60406#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+        <state relative-caret-position="434">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/LabeledExprVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="377" column="63" lean-forward="true" selection-start-line="377" selection-start-column="4" selection-end-line="377" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/LabeledExpr.g4">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+        <state relative-caret-position="186">
+          <caret line="60" column="35" selection-start-line="60" selection-start-column="35" selection-end-line="60" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        <state relative-caret-position="648">
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/EvalVisitor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="250" column="117" selection-start-line="250" selection-start-column="117" selection-end-line="250" selection-end-column="117" />
+        <state relative-caret-position="259">
+          <caret line="321" column="13" lean-forward="true" selection-start-line="321" selection-start-column="13" selection-end-line="321" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

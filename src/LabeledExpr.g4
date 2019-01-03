@@ -1,10 +1,14 @@
 grammar LabeledExpr;
 
 /** The start rule; beginparsing here. */
-prog: include* normalFunc* mainDecl normalFunc*;
+prog: include* define* struct* normalFunc* mainDecl normalFunc*;
 
 
 include : ('#include' HEAD) | ('using' 'namespace' ID ';');
+define  : '#define' ID INT;
+
+struct : 'struct' ID '{' stat* '}' ';';
+
 mainDecl:type 'main' '(' parameters? ')'block;
 normalFunc:type ID '('parameters?')' block;
 valDecl: type ID ('=' expr)?                    # singleVariable
@@ -18,7 +22,9 @@ boolArrayInit: BOOL (',' BOOL)*;
 
 
 parameters: parameter (','parameter)*;//形参
-parameter: type ID;//单个形参
+parameter: type ID           # singleparameter
+         | type ID '['INT']' # arrayparameter
+         ;
 
 block: '{' stat* '}' ; //代码块
 
@@ -37,7 +43,7 @@ elseif:'else' 'if' '('expr')' stat;
 switch_case : 'case' value=(INT|STRING) ':' stat*;
 switch_default : 'default' ':' stat*;
 assign: expr '=' expr;
-forLoop:'for' '(' (valDecl|assign)';'expr';'expr ')' stat;
+forLoop:'for' '('  (assign|valDecl)? ';'expr';'expr ')' stat;
 whileLoop: 'while''('expr')' stat;
 
 
@@ -62,9 +68,15 @@ expr:
    | op = ('++'|'--') expr           # increaseAndDecreaseBefore
    | expr op = ('+='|'-=') expr      # selfPlusAndSub
    //逻辑运算
-   | expr op = ('==' | '!=' | '<=' | '>=' | '<' | '>' | '&&' | '||' ) expr # logical_cp
+   | expr op = ('==' | '!=' | '<=' | '>=' | '<' | '>' ) expr # logical_cp
+   | expr op = ('&&' | '||') expr # logical_op
 
+   //三元表达式
+   | expr '?' expr ':' expr          # ternary
+
+   | '&'ID                      # getAddress
    | ID                         # id
+   | ID('.'|'->')ID               # getValue
    | INT                        # int
    | STRING                     # string
    | BOOL                       # bool
@@ -72,14 +84,18 @@ expr:
    ;
 
 exprList : expr (',' expr)* ; // arg list
-type: VTYPE '*'?;
+type:  VTYPE              # predefinedType
+    |  VTYPE '*'          # predefinedTypePoint
+    | 'struct' ID         # structType
+    | 'struct' ID '*'     # structTypePoint
+    ;
 
 CHAR: ('\''.'\'')|'\'''\\' ('b'|'t'|'n'|'f'|'r'|'"'|'\''|'\\')'\'';
 WS:[ \t\n\r]+ -> skip;
 VTYPE: 'int'|'double'|'float'|'char'|'bool'|'void';
 INT: ('-')?[0-9]+;
 //fragment
-HEAD : ('<' (~[\t\r\n])+'>');
+HEAD : ('<' (~[\t\r\n&|<>])+'>');
 STRING : '"'(~[\t\n\r])*'"';
 
 //STRING

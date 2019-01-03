@@ -1,10 +1,12 @@
 import com.sun.xml.internal.bind.marshaller.NoEscapeHandler;
 import com.sun.xml.internal.ws.config.management.policy.ManagementPolicyValidator;
+import org.antlr.v4.runtime.ParserRuleContext;
 import org.antlr.v4.runtime.tree.ParseTree;
 import org.antlr.v4.runtime.tree.TerminalNode;
 import sun.security.krb5.internal.PAData;
 
 import javax.print.DocFlavor;
+import java.security.PublicKey;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -12,20 +14,70 @@ import java.util.Map;
 
 public class EvalVisitor extends LabeledExprBaseVisitor<Node> {
 
-    Map<String,String> key_type = new HashMap<String, String>();
-    Map<String,String> func_type = new HashMap<String,String>();
-    @Override
-    public Node visitProg(LabeledExprParser.ProgContext ctx) {
-        String main_code = visitMainDecl(ctx.mainDecl()).visitString;
-        String normalFunc = "";
-        for (LabeledExprParser.NormalFuncContext ele : ctx.normalFunc()) {
-            normalFunc += visitNormalFunc(ele);
-        }
-        Node node = new Node();
-        node.visitString = "public class Main {public static void main(String[] args) {_main(args.length,args);}" + main_code + normalFunc + '}';
-        return node;
+    Map<String,Map<String,String>> key_type = new HashMap<>();
+    Map<String,String> func_type = new HashMap<>();
+
+    public String getFuncName(ParserRuleContext curNode){
+        ParserRuleContext parentNode = curNode.getParent();
+        String func_name = ".global";
+        while(!(parentNode instanceof LabeledExprParser.NormalFuncContext) &&
+                ! (parentNode instanceof LabeledExprParser.MainDeclContext) &&
+                ! (parentNode instanceof LabeledExprParser.ProgContext))
+            parentNode = parentNode.getParent();
+        if(parentNode instanceof LabeledExprParser.NormalFuncContext)
+            func_name = ((LabeledExprParser.NormalFuncContext) parentNode).ID().getText();
+        if(parentNode instanceof LabeledExprParser.MainDeclContext)
+            func_name = "main";
+        return func_name;
     }
 
+    @Override
+    public Node visitProg(LabeledExprParser.ProgContext ctx) {
+
+        Map<String,String> global = new HashMap<>();
+        Map<String,String> main = new HashMap<>();
+
+        key_type.put(".global",global);
+        key_type.put("main",main);
+
+
+        String normalFunc = "";
+        String define = "";
+        String struct = "";
+        for(LabeledExprParser.DefineContext ele: ctx.define()){
+            define += visit(ele).visitString;
+        }
+        for(LabeledExprParser.StructContext ele:ctx.struct()){
+            struct += visit(ele).visitString;
+        }
+        for (LabeledExprParser.NormalFuncContext ele : ctx.normalFunc()) {
+            Map<String,String> normal = new HashMap<>();
+            key_type.put(ele.ID().getText(),normal);
+            normalFunc += visitNormalFunc(ele).visitString;
+
+        }
+        String main_code = visitMainDecl(ctx.mainDecl()).visitString;
+        Node node = new Node();
+        node.visitString = "public class Main {" + define + struct + "public static void main(String[] args) {_main(args.length,args);}" + main_code + normalFunc + '}';
+        return node;
+    }
+    @Override
+    public Node visitDefine(LabeledExprParser.DefineContext ctx){
+        Node node = new Node();
+         node.visitString =  "public static int "+ctx.ID().getText() + '=' + ctx.INT().getText() + ';';
+         return node;
+    }
+
+    @Override
+    public Node visitStruct(LabeledExprParser.StructContext ctx){
+        Node node = new Node();
+        String struct_content = "";
+        for(LabeledExprParser.StatContext ele:ctx.stat()){
+            struct_content += visit(ele).visitString;
+        }
+        node.visitString = "static class " + ctx.ID().getText() + '{' + struct_content + '}';
+        return node;
+    }
 
     @Override
     public Node visitMainDecl(LabeledExprParser.MainDeclContext ctx) {
@@ -54,16 +106,23 @@ public class EvalVisitor extends LabeledExprBaseVisitor<Node> {
 
     @Override
     public Node visitSingleVariable(LabeledExprParser.SingleVariableContext ctx) {
+        String func_name = getFuncName(ctx);
         String type = visit(ctx.type()).visitString;
+
+
         String id = ctx.ID().getText();
-        this.key_type.put(id,type);
+        key_type.get(func_name).put(id,type);
         String extern = "";
         if (ctx.getChildCount() == 4) {
             extern += ctx.getChild(2).getText();
             extern += visit(ctx.expr()).visitString;
         }
+        else if(visit(ctx.type()).type.contains("struct")){
+            extern += " = new " + type + "()";
+        }
         Node node = new Node();
         node.visitString = type + " " + id + " " + extern;
+        node.type = type;
         return node;
     }
 
@@ -72,9 +131,12 @@ public class EvalVisitor extends LabeledExprBaseVisitor<Node> {
         String type = visit(ctx.type()).visitString;
         String id = ctx.ID().getText();
         String len = ctx.INT().getText();
-        this.key_type.put(id,type+"[]");
+
         Node node = new Node();
         node.visitString = type + "[] " + id + "= new " + type + '[' + len + ']';
+        node.type = type;
+        String func_name = getFuncName(ctx);
+        key_type.get(func_name).put(id,type+"[]");
         return node;
     }
 
@@ -82,7 +144,7 @@ public class EvalVisitor extends LabeledExprBaseVisitor<Node> {
     public Node visitArrayInitVariable(LabeledExprParser.ArrayInitVariableContext ctx) {
         String type = visit(ctx.type()).visitString;
         String id = ctx.ID().getText();
-        this.key_type.put(id,type+"[]");
+
         String initValues = ctx.arrayInitValues().getText();
         String len;
         Node declare = new Node();
@@ -124,6 +186,9 @@ public class EvalVisitor extends LabeledExprBaseVisitor<Node> {
         } else if (ctx.arrayInitValues().expr() != null) {
             declare.visitString = type + "[] " + id + "=" + visit(ctx.arrayInitValues().expr()).visitString;
         }
+        declare.type = type;
+        String func_name = getFuncName(ctx);
+        key_type.get(func_name).put(id,type+"[]");
         return declare;
     }
 
@@ -140,14 +205,25 @@ public class EvalVisitor extends LabeledExprBaseVisitor<Node> {
         return node;
     }
 
-    @Override
-    public Node visitParameter(LabeledExprParser.ParameterContext ctx) {
-        String type = "";
-        String id = "";
-        id = ctx.ID().getText();
-        type = visit(ctx.type()).visitString;
+//    @Override
+//    public Node visitParameter(LabeledExprParser.ParameterContext ctx) {
+//        String type = "";
+//        String id = "";
+//        id = ctx.ID().getText();
+//        type = visit(ctx.type()).visitString;
+//        Node node = new Node();
+//        node.visitString = type + ' ' + id;
+//        return node;
+//    }
+    public Node visitSingleparameter(LabeledExprParser.SingleparameterContext ctx){
         Node node = new Node();
-        node.visitString = type + ' ' + id;
+        node.visitString = visit(ctx.type()).visitString+ ' ' + ctx.ID().getText();
+        return node;
+    }
+
+    public Node visitArrayparameter(LabeledExprParser.ArrayparameterContext ctx){
+        Node node = new Node();
+        node.visitString = visit(ctx.type()).visitString + ' ' + visit(ctx.ID()).visitString + "[]";
         return node;
     }
 
@@ -179,6 +255,7 @@ public class EvalVisitor extends LabeledExprBaseVisitor<Node> {
     @Override
     public Node visitIf(LabeledExprParser.IfContext ctx) {
         Node condition = visit(ctx.expr());
+        String cond = anythingToBoolean(condition);
         Node if_deal = visit(ctx.stat(0));
         String elseif = "";
         String else_deal = "";
@@ -186,10 +263,10 @@ public class EvalVisitor extends LabeledExprBaseVisitor<Node> {
             elseif += visit(ele).visitString;
         }
         if (ctx.stat().size() > 1) {
-            else_deal = "else" + visit(ctx.stat(1)).visitString;
+            else_deal = "else " + visit(ctx.stat(1)).visitString;
         }
         Node node = new Node();
-        node.visitString = "if(" + condition.visitString + ")" + if_deal.visitString + elseif + else_deal;
+        node.visitString = "if(" + cond + ")" + if_deal.visitString + elseif + else_deal;
         node.type = "";
         return node;
     }
@@ -198,8 +275,9 @@ public class EvalVisitor extends LabeledExprBaseVisitor<Node> {
     public Node visitElseif(LabeledExprParser.ElseifContext ctx) {
         Node node = new Node();
         Node condition = visit(ctx.expr());
+        String cond = anythingToBoolean(condition);
         Node elseif_deal = visit(ctx.stat());
-        node.visitString = "else if(" + condition.visitString + ")" + elseif_deal.visitString;
+        node.visitString = "else if(" + cond + ")" + elseif_deal.visitString;
         node.type = "";
         return node;
     }
@@ -261,8 +339,15 @@ public class EvalVisitor extends LabeledExprBaseVisitor<Node> {
             condition_1 = visit(ctx.valDecl()).visitString;
             condition_2 = visit(ctx.expr(0)).visitString;
             condition_3 = visit(ctx.expr(1)).visitString;
-        } else {
+        }
+        else if(ctx.assign() != null)
+        {
             condition_1 = visit(ctx.assign()).visitString;
+            condition_2 = visit(ctx.expr(0)).visitString;
+            condition_3 = visit(ctx.expr(1)).visitString;
+        }
+        else{
+            condition_1 = "";
             condition_2 = visit(ctx.expr(0)).visitString;
             condition_3 = visit(ctx.expr(1)).visitString;
         }
@@ -320,9 +405,9 @@ public class EvalVisitor extends LabeledExprBaseVisitor<Node> {
         Node expr_1 = visit(ctx.expr(0));
         Node expr_2 = visit(ctx.expr(1));
         node.visitString = expr_1.visitString+ctx.op.getText()+expr_2.visitString;
-        if(!expr_1.type.equals(expr_2.type)){
-            System.out.printf("%s cann't %s %s\n",expr_1.type,ctx.op.getText(),expr_2.type);
-        }
+//        if(!expr_1.type.equals(expr_2.type)){
+//            System.out.printf("%s cann't %s %s\n",expr_1.type,ctx.op.getText(),expr_2.type);
+//        }
         node.type = expr_1.type;
         return  node;
 //        return visit(ctx.expr(0)) + ctx.op.getText() + visit(ctx.expr(1));
@@ -359,11 +444,11 @@ public class EvalVisitor extends LabeledExprBaseVisitor<Node> {
         Node expr_1 = visit(ctx.expr(0));
         Node expr_2 = visit(ctx.expr(1));
         node.visitString = expr_1.visitString+ctx.op.getText()+expr_2.visitString;
-        if(expr_1.type.equals("INT")){
-            System.out.printf("%s cann't shift\n",expr_1.type);
-        }else if(expr_2.type.equals("INT")){
-            System.out.printf("shift step should be int\n");
-        }
+//        if(expr_1.type.equals("INT")){
+//            System.out.printf("%s cann't shift\n",expr_1.type);
+//        }else if(expr_2.type.equals("INT")){
+//            System.out.printf("shift step should be int\n");
+//        }
         node.type = expr_1.type;
         return  node;
     }
@@ -412,7 +497,7 @@ public class EvalVisitor extends LabeledExprBaseVisitor<Node> {
         Node node = new Node();
 
         String func_name = ctx.ID().getText();
-        node.type = func_type.get(func_type.get(func_name));
+        node.type = func_type.get(func_name);
 
         Node parameters = null;
         if (ctx.exprList() != null)
@@ -423,15 +508,16 @@ public class EvalVisitor extends LabeledExprBaseVisitor<Node> {
 
     @Override
     public Node visitId(LabeledExprParser.IdContext ctx) {
+        String func_name = getFuncName(ctx);
         Node node = new Node();
+        node.type = "";
         node.visitString = ctx.ID().getText();
-        if(key_type.containsKey(node.visitString)){
-            node.type = key_type.get(node.visitString);
+        if(key_type.get(func_name).containsKey(node.visitString)){
+            node.type = key_type.get(func_name).get(node.visitString);
         }
         else if(func_type.containsKey(node.visitString)){
             node.type = func_type.get(node.visitString);
         }
-
         return node;
     }
 
@@ -455,9 +541,9 @@ public class EvalVisitor extends LabeledExprBaseVisitor<Node> {
         Node expr_1 = visit(ctx.expr(0));
         Node expr_2 = visit(ctx.expr(1));
         node.visitString = expr_1.visitString+ctx.op.getText()+expr_2.visitString;
-        if(!expr_1.type.equals(expr_2.type)){
-            System.out.printf("%s cann't %s %s\n",expr_1.type,ctx.op.getText(),expr_2.type);
-        }
+//        if(!expr_1.type.equals(expr_2.type)){
+//            System.out.printf("%s cann't %s %s\n",expr_1.type,ctx.op.getText(),expr_2.type);
+//        }
         node.type = expr_1.type;
         return  node;
     }
@@ -478,9 +564,9 @@ public class EvalVisitor extends LabeledExprBaseVisitor<Node> {
         Node expr_1 = visit(ctx.expr(0));
         Node expr_2 = visit(ctx.expr(1));
         node.visitString = expr_1.visitString+ctx.op.getText()+expr_2.visitString;
-        if(!expr_1.type.equals(expr_2.type)){
-            System.out.printf("%s cann't %s %s\n",expr_1.type,ctx.op.getText(),expr_2.type);
-        }
+//        if(!expr_1.type.equals(expr_2.type)){
+//            System.out.printf("%s cann't %s %s\n",expr_1.type,ctx.op.getText(),expr_2.type);
+//        }
         node.type = expr_1.type;
         return  node;
     }
@@ -497,16 +583,39 @@ public class EvalVisitor extends LabeledExprBaseVisitor<Node> {
     }
 
     @Override
-    public Node visitType(LabeledExprParser.TypeContext ctx) {
-        String type = ctx.VTYPE().getText();
-        if (type.equals("bool"))
-            type = "boolean";
-        if (ctx.getChildCount() != 1) {
-            type += "[]";
-        }
+    public Node visitPredefinedType(LabeledExprParser.PredefinedTypeContext ctx)
+    {
         Node node = new Node();
-        node.visitString = type;
-        node.type = "type";
+
+        node.visitString = ctx.getText();
+        if(node.visitString.equals("bool"))
+            node.visitString = "boolean";
+        node.type = node.visitString;
+        return node;
+    }
+
+    public Node visitPredefinedTypePoint(LabeledExprParser.PredefinedTypePointContext ctx)
+    {
+        Node node = new Node();
+        if(node.visitString.equals("bool"))
+            node.visitString = "boolean";
+        node.visitString = ctx.getText() + "[]";
+        node.type = node.visitString;
+        return node;
+    }
+
+
+    public Node visitStructType(LabeledExprParser.StructTypeContext ctx){
+        Node node = new Node();
+        node.visitString = ctx.ID().getText() + ' ';
+        node.type = "struct "+ctx.ID().getText();
+        return node;
+    }
+
+    public Node visitStructTypePoint(LabeledExprParser.StructTypePointContext ctx){
+        Node node = new Node();
+        node.visitString = ctx.ID().getText()+ ' ';
+        node.type = "struct " + ctx.ID().getText();
         return node;
     }
 
@@ -554,5 +663,59 @@ public class EvalVisitor extends LabeledExprBaseVisitor<Node> {
         return node;
     }
 
+    @Override
+    public Node visitGetAddress(LabeledExprParser.GetAddressContext ctx){
+        Node node = new Node();
+        node.visitString = ctx.ID().getText();
+        return node;
+    }
+
+    @Override
+    public Node visitGetValue(LabeledExprParser.GetValueContext ctx){
+        Node node = new Node();
+        node.visitString = ctx.ID(0).getText() + '.' + ctx.ID(1).getText();
+        return node;
+    }
+
+    @Override
+    public Node visitTernary(LabeledExprParser.TernaryContext ctx){
+        Node node = new Node();
+        Node expr_1 = visit(ctx.expr(0));
+        Node expr_2 = visit(ctx.expr(1));
+        Node expr_3 = visit(ctx.expr(2));
+        node.type = expr_2.type;
+        node.visitString = expr_1.visitString + " ? " + expr_2.visitString + " : " + expr_3.visitString;
+        return node;
+    }
+
+    @Override
+    public Node visitLogical_op(LabeledExprParser.Logical_opContext ctx){
+        Node node = new Node();
+        String str_1 = "";
+        String str_2 = "";
+        Node expr_1 = visit(ctx.expr(0));
+        str_1 = expr_1.visitString;
+        Node expr_2 = visit(ctx.expr(1));
+        str_2 = expr_2.visitString;
+        String op = ctx.op.getText();
+        str_1 = anythingToBoolean(expr_1);
+        str_2 = anythingToBoolean(expr_2);
+        node.visitString = str_1 + ' ' + op + ' ' + str_2;
+        node.type = "boolean";
+        return node;
+    }
+
+    public String anythingToBoolean(Node node){
+        String str_1 = node.visitString;
+        if(!node.type.equals("boolean")){
+            if(node.type.equals("int")||node.type.equals("char")){
+                str_1 = '('+str_1+")!=0";
+            }
+            else{
+                str_1 = '('+str_1+")!=null";
+            }
+        }
+        return str_1;
+    }
 
 }

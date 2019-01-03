@@ -22,6 +22,18 @@ public interface LabeledExprVisitor<T> extends ParseTreeVisitor<T> {
 	 */
 	T visitInclude(LabeledExprParser.IncludeContext ctx);
 	/**
+	 * Visit a parse tree produced by {@link LabeledExprParser#define}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitDefine(LabeledExprParser.DefineContext ctx);
+	/**
+	 * Visit a parse tree produced by {@link LabeledExprParser#struct}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitStruct(LabeledExprParser.StructContext ctx);
+	/**
 	 * Visit a parse tree produced by {@link LabeledExprParser#mainDecl}.
 	 * @param ctx the parse tree
 	 * @return the visitor result
@@ -85,11 +97,19 @@ public interface LabeledExprVisitor<T> extends ParseTreeVisitor<T> {
 	 */
 	T visitParameters(LabeledExprParser.ParametersContext ctx);
 	/**
-	 * Visit a parse tree produced by {@link LabeledExprParser#parameter}.
+	 * Visit a parse tree produced by the {@code singleparameter}
+	 * labeled alternative in {@link LabeledExprParser#parameter}.
 	 * @param ctx the parse tree
 	 * @return the visitor result
 	 */
-	T visitParameter(LabeledExprParser.ParameterContext ctx);
+	T visitSingleparameter(LabeledExprParser.SingleparameterContext ctx);
+	/**
+	 * Visit a parse tree produced by the {@code arrayparameter}
+	 * labeled alternative in {@link LabeledExprParser#parameter}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitArrayparameter(LabeledExprParser.ArrayparameterContext ctx);
 	/**
 	 * Visit a parse tree produced by {@link LabeledExprParser#block}.
 	 * @param ctx the parse tree
@@ -245,6 +265,13 @@ public interface LabeledExprVisitor<T> extends ParseTreeVisitor<T> {
 	 */
 	T visitInt(LabeledExprParser.IntContext ctx);
 	/**
+	 * Visit a parse tree produced by the {@code getValue}
+	 * labeled alternative in {@link LabeledExprParser#expr}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitGetValue(LabeledExprParser.GetValueContext ctx);
+	/**
 	 * Visit a parse tree produced by the {@code negative}
 	 * labeled alternative in {@link LabeledExprParser#expr}.
 	 * @param ctx the parse tree
@@ -286,6 +313,13 @@ public interface LabeledExprVisitor<T> extends ParseTreeVisitor<T> {
 	 * @return the visitor result
 	 */
 	T visitChar(LabeledExprParser.CharContext ctx);
+	/**
+	 * Visit a parse tree produced by the {@code getAddress}
+	 * labeled alternative in {@link LabeledExprParser#expr}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitGetAddress(LabeledExprParser.GetAddressContext ctx);
 	/**
 	 * Visit a parse tree produced by the {@code funcCall}
 	 * labeled alternative in {@link LabeledExprParser#expr}.
@@ -329,6 +363,20 @@ public interface LabeledExprVisitor<T> extends ParseTreeVisitor<T> {
 	 */
 	T visitPlusAndSub(LabeledExprParser.PlusAndSubContext ctx);
 	/**
+	 * Visit a parse tree produced by the {@code ternary}
+	 * labeled alternative in {@link LabeledExprParser#expr}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitTernary(LabeledExprParser.TernaryContext ctx);
+	/**
+	 * Visit a parse tree produced by the {@code logical_op}
+	 * labeled alternative in {@link LabeledExprParser#expr}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitLogical_op(LabeledExprParser.Logical_opContext ctx);
+	/**
 	 * Visit a parse tree produced by the {@code increaseAndDecreaseAfter}
 	 * labeled alternative in {@link LabeledExprParser#expr}.
 	 * @param ctx the parse tree
@@ -342,9 +390,31 @@ public interface LabeledExprVisitor<T> extends ParseTreeVisitor<T> {
 	 */
 	T visitExprList(LabeledExprParser.ExprListContext ctx);
 	/**
-	 * Visit a parse tree produced by {@link LabeledExprParser#type}.
+	 * Visit a parse tree produced by the {@code predefinedType}
+	 * labeled alternative in {@link LabeledExprParser#type}.
 	 * @param ctx the parse tree
 	 * @return the visitor result
 	 */
-	T visitType(LabeledExprParser.TypeContext ctx);
+	T visitPredefinedType(LabeledExprParser.PredefinedTypeContext ctx);
+	/**
+	 * Visit a parse tree produced by the {@code predefinedTypePoint}
+	 * labeled alternative in {@link LabeledExprParser#type}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitPredefinedTypePoint(LabeledExprParser.PredefinedTypePointContext ctx);
+	/**
+	 * Visit a parse tree produced by the {@code structType}
+	 * labeled alternative in {@link LabeledExprParser#type}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitStructType(LabeledExprParser.StructTypeContext ctx);
+	/**
+	 * Visit a parse tree produced by the {@code structTypePoint}
+	 * labeled alternative in {@link LabeledExprParser#type}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitStructTypePoint(LabeledExprParser.StructTypePointContext ctx);
 }
