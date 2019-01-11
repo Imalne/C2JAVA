@@ -196,9 +196,14 @@ public class EvalVisitor extends LabeledExprBaseVisitor<Node> {
     public Node visitParameters(LabeledExprParser.ParametersContext ctx) {
         String parameters_code = "";
         String parameter_code = "";
+        String parameter_type = "";
+        String func_type = getFuncName(ctx);
         for (LabeledExprParser.ParameterContext ele : ctx.parameter()) {
             parameter_code = visit(ele).visitString;
+            parameter_type = visit(ele).type;
             parameters_code += ',' + parameter_code;
+            String parameterName = parameter_code.split("[\\s+]")[1];
+            this.key_type.get(func_type).put(parameterName,parameter_type);
         }
         Node node = new Node();
         node.visitString = parameters_code.substring(1);
@@ -217,13 +222,16 @@ public class EvalVisitor extends LabeledExprBaseVisitor<Node> {
 //    }
     public Node visitSingleparameter(LabeledExprParser.SingleparameterContext ctx){
         Node node = new Node();
-        node.visitString = visit(ctx.type()).visitString+ ' ' + ctx.ID().getText();
+        Node type = visit(ctx.type());
+        node.visitString = type.visitString+ ' ' + ctx.ID().getText();
+        node.type = type.visitString;
         return node;
     }
 
     public Node visitArrayparameter(LabeledExprParser.ArrayparameterContext ctx){
         Node node = new Node();
         node.visitString = visit(ctx.type()).visitString + ' ' + visit(ctx.ID()).visitString + "[]";
+        node.type = visit(ctx.type()).visitString + "[]";
         return node;
     }
 
@@ -325,8 +333,8 @@ public class EvalVisitor extends LabeledExprBaseVisitor<Node> {
         Node expr_2 = visit(ctx.expr(1));
         Node node = new Node();
         node.visitString = expr_1.visitString + '=' + expr_2.visitString;
-        if(!expr_1.type.equals(expr_2.type))
-            System.out.printf("%s(%s) cann't be assign to %s(%s)\n",expr_2.visitString,expr_2.type,expr_1.visitString,expr_1.type);
+//        if(!expr_1.type.equals(expr_2.type))
+//            System.out.printf("%s(%s) cann't be assign to %s(%s)\n",expr_2.visitString,expr_2.type,expr_1.visitString,expr_1.type);
         return  node;
     }
 

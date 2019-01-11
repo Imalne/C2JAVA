@@ -117,3 +117,7 @@ STRING : '"'(~[\t\n\r])*'"';
 BOOL : 'false'|'true';
 ID: [a-zA-Z1-9_]+;
 
+BLOCK_COMMENT: '/*'.*?'*/'->skip;
+LINE_COMMENT : '//' ~[\r\n]* ->skip;
+
+
